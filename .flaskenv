@@ -1,0 +1,2 @@
+FLASK_APP=fullstack
+FLASK_ENV=production
