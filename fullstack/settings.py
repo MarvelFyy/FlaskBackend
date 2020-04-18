@@ -49,7 +49,7 @@ class DevelopmentConfig(Config):
     SECRET_KEY = os.urandom(24)
     DEBUG = True
     # 配置数据库的地址
-    SQLALCHEMY_DATABASE_URI = 'mysql://root:root@127.0.0.1/vue_flask'
+    SQLALCHEMY_DATABASE_URI = 'mysql://PRIVATE@Link2046:root@127.0.0.1/vue_flask'
     # 跟踪数据库的修改 不建议开启
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     # 七牛云
