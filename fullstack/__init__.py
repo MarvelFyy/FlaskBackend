@@ -23,7 +23,7 @@ api=Api(app)
 
 # 检查当前模块是否是主模块
 if __name__ == '__main__':
-    app.run()
+    app.run(host="120.26.184.67")
 
 # 为了避免循环依赖 在此导入模块
 import fullstack.Models,fullstack.commands
